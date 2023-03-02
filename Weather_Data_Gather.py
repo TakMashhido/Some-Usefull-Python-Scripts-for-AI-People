@@ -8,7 +8,7 @@ import time
 import pandas as pd
 
 # Read the CSV file into a DataFrame
-df = pd.read_csv('data.csv')
+df = pd.read_csv('path/to/your/data.csv')
 
 # Define a function to retrieve weather data for a given location
 def get_weather_data(latitude, longitude, api_key):
